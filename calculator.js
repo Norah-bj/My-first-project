@@ -25,9 +25,4 @@ function calculator(num1, num2, operator) {
     return `Result: ${result}`;
 }
 
-// Example usage
-console.log(calculator(10, 5, '+'));  // Output: Result: 15
-console.log(calculator(8, 2, '-'));   // Output: Result: 6
-console.log(calculator(6, 3, '*'));   // Output: Result: 18
-console.log(calculator(9, 0, '/'));   // Output: Error: Division by zero is not allowed.
-console.log(calculator(10, 2, '%'));  // Output: Error: Invalid operator.
+module.exports = { calculator };
